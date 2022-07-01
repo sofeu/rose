@@ -1,0 +1,5 @@
+cd $(cd $(dirname $0); pwd)
+while(true) do
+screen -S rose -X kill
+screen -S rose ./rose
+done
